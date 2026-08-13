@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FB Lite</string>
+    <string name="title_home">Home</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_videos">Videos</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_search">Search</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_marketplace">Marketplace</string>
+    <string name="title_profile">Profile</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_back">Back</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_fast_mode">Fast Lite Mode</string>
+    <string name="action_data_saver">Data Saver</string>
+    <string name="action_dark_mode">Night Mode</string>
+    <string name="action_desktop_mode">Desktop Site</string>
+    <string name="action_clear_cache">Speed Boost (Clear Cache)</string>
+    <string name="action_logout">Log Out / Clear Session</string>
+    <string name="error_offline">No internet connection</string>
+    <string name="error_offline_desc">Please check your network and tap Retry to load Facebook.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_basic_fb">Open Ultra-Lite FB</string>
+    <string name="speed_boost_cleared">Cache cleared! Fast browsing enabled.</string>
+    <string name="status_loading">Opening Facebook fast…</string>
+</resources>

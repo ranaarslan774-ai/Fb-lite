@@ -1,0 +1,6 @@
+{
+  "name": "FB Lite",
+  "description": "Fast and lightweight Facebook browser app with quick login, data saver, messenger access, and smooth navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
