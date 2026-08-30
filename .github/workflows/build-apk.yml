@@ -19,6 +19,34 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
+    - name: Create dummy google-services.json
+      run: |
+        echo '{
+          "project_info": {
+            "project_number": "1234567890",
+            "project_id": "fb-lite-dummy",
+            "storage_bucket": "fb-lite-dummy.appspot.com"
+          },
+          "client": [{
+            "client_info": {
+              "mobilesdk_app_id": "1:1234567890:android:1234567890abcdef",
+              "android_client_info": {
+                "package_name": "com.example.fblite"
+              }
+            },
+            "oauth_client": [],
+            "services": {
+              "analytics_service": {
+                "status": 1
+              },
+              "app_measurement_service": {
+                "status": 1
+              }
+            }
+          }],
+          "configuration_version": "1"
+        }' > app/google-services.json
+
     - name: Generate Gradle Wrapper
       run: gradle wrapper
 
