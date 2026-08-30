@@ -35,6 +35,9 @@ jobs:
               }
             },
             "oauth_client": [],
+            "api_key": [{
+              "current_key": "AIzaSyDummyKeyForBuildProcessOnly123456"
+            }],
             "services": {
               "analytics_service": {
                 "status": 1
